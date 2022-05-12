@@ -1,5 +1,5 @@
 form {
-  width: 50%;
+  width: 25%;
   margin: auto;
 }
 
@@ -43,6 +43,10 @@ input.placeholder {
   font-size: 15%;
   color: #d3d6d5;
   letter-spacing: 0.1em;
+}
+
+::placeholder {
+  color: #d3d6d5;
 }
 
 button {
