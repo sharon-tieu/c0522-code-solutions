@@ -22,7 +22,7 @@
 
 .text-row {
   text-align: left;
-  margin-top: auto;
+  margin-top: 4px;
   margin-right: 12px;
 }
 
@@ -35,6 +35,7 @@ p {
   font-family: Karla, sans-serif;
   src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
   color: #888;
+  font-size: 10px;
 }
 
 h1 + p {
@@ -49,7 +50,7 @@ h1 + p {
 }
 
 .icon-2 {
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 input.class {
@@ -88,4 +89,8 @@ button:hover {
   background-color: #e79995;
   color: white;
   cursor: pointer;
+}
+
+#button {
+  text-align: center;
 }
