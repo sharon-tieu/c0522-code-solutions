@@ -2,7 +2,7 @@ var fullName = 'Sharon Tieu';
 console.log('value of fullName:', fullName);
 console.log('typeof fullName:', typeof fullName);
 
-var isCool = 'True';
+var isCool = true;
 console.log('value of isCool:', isCool);
 console.log('typeof isCool:', typeof isCool);
 
