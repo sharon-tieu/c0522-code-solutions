@@ -1,0 +1,219 @@
+body {
+  margin: 50px;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-1 {
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+  color: #6e6e6e;
+}
+
+.col-1 > p {
+  text-align: center;
+}
+
+.col-2,
+.col-3,
+.col-4 {
+  width: 50%;
+  font-family: Avenir, sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  margin: -8px;
+}
+
+.row-2 {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  line-height: 1.5rem;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+.row-3 {
+  margin: 18px;
+}
+
+.header-row-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-5-half {
+  justify-content: space-evenly;
+}
+
+img.logo {
+  width: 40%;
+  height: 80%;
+}
+
+.col-5-half > .flex-evenly {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  color: #aeaeae;
+}
+
+a {
+  color: none;
+}
+
+.flex-evenly > button {
+  border-radius: 2px;
+  background-color: #294363;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: Avenir, sans-serif;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.row-4 {
+  src: url("avenir.woff2") format("woff2");
+  background-image: url("images/hero.jpg");
+  height: 400px;
+  background-size: cover;
+  margin: 10px 30px;
+  justify-content: center;
+}
+
+div.row-4 > .col-8 {
+  margin: 30px;
+  padding-top: 20px;
+  padding-right: 40%;
+}
+
+div.col-8 > h2,
+p {
+  margin: 30px;
+}
+
+div.col-8 > h2 {
+  padding-right: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+div.col-11 > p {
+  text-align: left;
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  color: #f0f0ef;
+  line-height: 0.2px;
+  font-size: 10px;
+}
+
+.col-11 > p {
+  color: #525351;
+  padding-left: 3rem;
+}
+
+.row-6 > p {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  font-size: 12px;
+  color: #858585;
+}
+
+div.col-8 > p {
+  color: #f8f8f8;
+  font-size: 12px;
+  font-family: Avenir, sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  text-align: left;
+}
+
+.row-1 {
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+.col-9 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+div.col-9 > .row-6 {
+  padding-left: 40px;
+}
+
+.row-6 > h3 {
+  color: #858585;
+  font-size: 20px;
+}
+
+button.get-started {
+  border-radius: 2px;
+  background-color: #294363;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  margin-left: 30px;
+  height: 60px;
+  width: 200px;
+}
+
+.col-12,
+.col-13 {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.row-8 {
+  background-color: #fafafa;
+}
+
+.col-16 {
+  display: flex;
+  color: #868686;
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.row-14 {
+  margin: 50px;
+}
+
+.row-15 {
+  margin-top: 50px;
+}
+
+.row-7 {
+  background-color: #525351;
+}
+
+.col-11 > img {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  width: 20%;
+}
+
+.row-7 {
+  display: flex;
+  justify-content: space-evenly;
+}
