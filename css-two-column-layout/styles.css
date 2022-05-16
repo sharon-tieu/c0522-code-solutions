@@ -24,6 +24,7 @@
   text-align: left;
   margin-top: 4px;
   margin-right: 12px;
+  width: 200px;
 }
 
 .image-row {
@@ -50,7 +51,7 @@ h1 + p {
 }
 
 .icon-2 {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 input.class {
@@ -70,8 +71,9 @@ h1 {
 h3 {
   font-family: Karla, sans-serif;
   src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
-  padding-top: 50px;
   color: #0e0e0e;
+  font-size: 10px;
+  padding-top: 10%;
 }
 
 button {
@@ -91,6 +93,15 @@ button:hover {
   cursor: pointer;
 }
 
-#button {
+img.icon,
+.icon-2 {
+  width: 80px;
+}
+
+.data-transforms-text-column {
+  padding-top: 10px;
+}
+
+.footer {
   text-align: center;
 }
