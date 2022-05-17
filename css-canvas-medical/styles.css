@@ -1,5 +1,7 @@
 .container {
   margin: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .col-three-fifth {
@@ -42,7 +44,7 @@ img.blue-logo {
 .image-row {
   background-image: url("/css-canvas-medical/images/hero.jpg");
   background-size: cover;
-  height: 450px;
+  height: 500px;
   margin: 5px 90px;
 }
 
@@ -81,6 +83,7 @@ p {
 
 .row-clinicians-prefer {
   background: #fafafa;
+  margin-top: 50px;
 }
 
 .row-clinicians-prefer-heading {
@@ -115,8 +118,7 @@ p {
 .row-ready-to-learn {
   display: flex;
   justify-content: space-between;
-  margin-left: 145px;
-  margin-right: 145px;
+  margin: 25px 145px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
