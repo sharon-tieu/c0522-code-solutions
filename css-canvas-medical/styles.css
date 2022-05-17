@@ -1,219 +1,191 @@
-body {
-  margin: 50px;
-}
-
 .container {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 60px;
 }
 
-.col-1 {
-  text-align: center;
-  font-family: "Tiempos Headline", sans-serif;
-  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
-  color: #6e6e6e;
+.col-three-fifth {
+  flex-basis: auto;
+  padding: 50px;
+  margin-right: 50px;
+  margin-left: 100px;
+  column-width: 300px;
 }
 
-.col-1 > p {
-  text-align: center;
+.col-two-fifth {
+  margin-left: 50px;
 }
 
-.col-2,
-.col-3,
-.col-4 {
-  width: 50%;
-  font-family: Avenir, sans-serif;
-  src: url("avenir.woff2") format("woff2");
-  margin: -8px;
-}
-
-.row-2 {
-  display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  line-height: 1.5rem;
-  font-size: 14px;
-  justify-content: space-around;
-}
-
-.row-3 {
-  margin: 18px;
-}
-
-.header-row-space-between {
+.header-row {
   display: flex;
   justify-content: space-between;
 }
 
-.col-5-half {
-  justify-content: space-evenly;
-}
-
-img.logo {
-  width: 40%;
-  height: 80%;
-}
-
-.col-5-half > .flex-evenly {
-  font-family:
-    Avenir,
-    sans-serif;
-  src: url("avenir.woff2") format("woff2");
-  color: #aeaeae;
-}
-
-a {
-  color: none;
-}
-
-.flex-evenly > button {
-  border-radius: 2px;
+button.contact-us {
   background-color: #294363;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-family: Avenir, sans-serif;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.row-4 {
-  src: url("avenir.woff2") format("woff2");
-  background-image: url("images/hero.jpg");
-  height: 400px;
-  background-size: cover;
-  margin: 10px 30px;
-  justify-content: center;
-}
-
-div.row-4 > .col-8 {
-  margin: 30px;
-  padding-top: 20px;
-  padding-right: 40%;
-}
-
-div.col-8 > h2,
-p {
-  margin: 30px;
-}
-
-div.col-8 > h2 {
-  padding-right: 30px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  color: #fff;
-}
-
-div.col-11 > p {
-  text-align: left;
-  font-family:
-    Avenir,
-    sans-serif;
-  src: url("avenir.woff2") format("woff2");
-  color: #f0f0ef;
-  line-height: 0.2px;
-  font-size: 10px;
-}
-
-.col-11 > p {
-  color: #525351;
-  padding-left: 3rem;
-}
-
-.row-6 > p {
-  font-family:
-    Avenir,
-    sans-serif;
-  src: url("avenir.woff2") format("woff2");
-  font-size: 12px;
-  color: #858585;
-}
-
-div.col-8 > p {
-  color: #f8f8f8;
-  font-size: 12px;
-  font-family: Avenir, sans-serif;
-  src: url("avenir.woff2") format("woff2");
-  text-align: left;
-}
-
-.row-1 {
-  background-color: #fafafa;
+  color: white;
+  border: #294363;
+  height: 35px;
+  width: 90px;
+  border-radius: 4px;
   padding: 10px;
 }
 
-.col-9 {
+img.blue-logo {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.col-three-fifth > a {
+  margin: 40px;
+}
+
+.image-row {
+  background-image: url("/css-canvas-medical/images/hero.jpg");
+  background-size: cover;
+  height: 450px;
+  margin: 5px 90px;
+}
+
+p {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.text-in-image-row > h2 {
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  width: 40%;
+}
+
+.text-in-image-row > p {
+  color: #fff;
+  padding-left: 3rem;
+  width: 45%;
+  font-size: 14px;
+}
+
+.get-started {
+  background-color: #294363;
+  color: white;
+  border: #294363;
+  height: 40px;
+  width: 150px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.row-clinicians-prefer {
+  background: #fafafa;
+}
+
+.row-clinicians-prefer-heading {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  color: #7c7c7c;
+  width: 40%;
+}
+
+.row-clinicians-prefer-heading > h2 {
+  font-size: 30px;
+}
+
+.row-clinicians-prefer-text {
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+}
+
+.col-clinicians-prefer-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 40px;
+  color: #7c7c7c;
+  font-family: Avenir, sans-serif;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.row-ready-to-learn {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  margin-left: 145px;
+  margin-right: 145px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-div.col-9 > .row-6 {
-  padding-left: 40px;
+.col-ready-to-learn {
+  color: #7c7c7c;
+  line-height: 8px;
 }
 
-.row-6 > h3 {
-  color: #858585;
-  font-size: 20px;
+.col-ready-to-learn > p {
+  font-size: 12px;
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
 }
 
-button.get-started {
-  border-radius: 2px;
-  background-color: #294363;
+.row-canvas-info {
+  background-color: #525351;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col-two-fourths-canvas-info {
   color: #fff;
-  border: none;
-  padding: 10px 20px;
+  padding-right: 90px;
+}
+
+img.white-logo {
+  height: 20px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.col-two-fourths-canvas-info > p {
+  font-size: 12px;
+  line-height: 9px;
   font-family:
     Avenir,
     sans-serif;
   src: url("avenir.woff2") format("woff2");
-  margin-left: 30px;
-  height: 60px;
-  width: 200px;
 }
 
-.col-12,
-.col-13 {
+.col-one-fourth-canvas-info {
+  font-size: 15px;
+  line-height: 20px;
   font-family:
     Avenir,
     sans-serif;
-  src: url("avenir.woff2") format("woff2");
+  src: url("Avenir.woff2") format("woff2");
+  color: #fff;
+  margin-left: 70px;
 }
 
-.row-8 {
+.row-footer {
+  display: flex;
   background-color: #fafafa;
 }
 
-.col-16 {
-  display: flex;
-  color: #868686;
+.col-footer-one-sixth {
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family:
     Avenir,
     sans-serif;
   src: url("avenir.woff2") format("woff2");
+  color: #8c8c8c;
   font-size: 12px;
-  font-weight: 500;
-}
-
-.row-14 {
-  margin: 50px;
-}
-
-.row-15 {
-  margin-top: 50px;
-}
-
-.row-7 {
-  background-color: #525351;
-}
-
-.col-11 > img {
-  padding-top: 5rem;
-  padding-left: 5rem;
-  width: 20%;
-}
-
-.row-7 {
-  display: flex;
-  justify-content: space-evenly;
 }
