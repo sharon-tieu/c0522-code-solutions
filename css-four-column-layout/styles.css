@@ -1,0 +1,50 @@
+.container {
+  padding: 10px 5px;
+}
+
+.row-header {
+  text-align: center;
+  padding: 5px;
+}
+
+.row-body-half {
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 50%;
+}
+
+.phone-image {
+  display: flex;
+  width: 60%;
+  position: relative;
+  left: 25%;
+}
+
+.vector-image {
+  width: 70;
+  position: relative;
+}
+
+img.vector-image {
+  width: 20%;
+  left: 45%;
+  padding-top: 10px;
+}
+
+.text-content {
+  font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-left: 30px;
+}
+
+p {
+  font-size: 10px;
+}
+
+h2 {
+  font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
