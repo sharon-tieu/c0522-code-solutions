@@ -46,6 +46,14 @@ img.blue-logo {
   background-size: cover;
   height: 500px;
   margin: 5px 90px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: rgb(0 0 0 / 47.8%);
 }
 
 p {
