@@ -1,0 +1,64 @@
+.container {
+  padding: 10px;
+}
+
+.row-header {
+  text-align: center;
+  padding: 5px;
+  font-family: sans-serif, "Times New Roman", Times, serif;
+}
+
+.pics-in-a-row {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+}
+
+.col-on-fifth {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+  object-fit: contain;
+  height: 200px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: sans-serif, Arial, Helvetica;
+  margin: 0 auto;
+}
+
+.text-title-black {
+  font-weight: bold;
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+.text-title-grey {
+  color: #e8e8e8;
+  font-size: 8px;
+}
+
+.strike-through-text {
+  text-decoration: line-through;
+  font-weight: lighter;
+  color: #e8e8e8;
+  font-family:
+    sans-serif,
+    Arial,
+    Helvetica;
+  font-size: 8px;
+}
+
+.highlight-price {
+  background-color: #fff1e7;
+}
