@@ -8,8 +8,6 @@
   flex-basis: auto;
   padding: 50px;
   margin-right: 50px;
-  margin-left: 100px;
-  column-width: 300px;
 }
 
 .col-two-fifth {
@@ -39,6 +37,12 @@ img.blue-logo {
 
 .col-three-fifth > a {
   margin: 40px;
+}
+
+.divider-line {
+  border-top: 1px solid #eef1f3;
+  position: relative;
+  bottom: 50px;
 }
 
 .image-row {
