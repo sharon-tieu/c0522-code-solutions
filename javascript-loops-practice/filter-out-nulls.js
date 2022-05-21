@@ -1,11 +1,11 @@
 /* exported filterOutNulls */
 
 function filterOutNulls(values) {
-  var myBrainHurts = [];
+  var noNulls = [];
   for (var i = 0; i < values.length; i++) {
     if (values[i] !== null) {
-      myBrainHurts.push(values[i]);
+      noNulls.push(values[i]);
     }
   }
-  return myBrainHurts;
+  return noNulls;
 }
