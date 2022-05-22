@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-.row-header {
+.header {
   text-align: center;
   font-family: Karla, sans-serif;
   src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYc6trAT7RVLtyU5rZP.woff2");
@@ -19,7 +19,7 @@ h1 {
   letter-spacing: 5px;
 }
 
-.row-subheader {
+.subheading {
   text-align: center;
   width: 45%;
 }
