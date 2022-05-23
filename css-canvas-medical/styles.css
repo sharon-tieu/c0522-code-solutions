@@ -14,6 +14,10 @@
   margin-left: 50px;
 }
 
+a {
+  color: #a1a1a1;
+}
+
 .header-row {
   display: flex;
   justify-content: space-between;
