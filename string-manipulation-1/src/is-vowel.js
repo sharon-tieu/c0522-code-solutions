@@ -1,16 +1,11 @@
 /* exported isVowel */
 
-// goal: Must return a true or false value- Boolean.
-// Boolean is to indicate whether or not char is a vowel AND either lower or uppercased.
-// write a for loop so then we can go through each index of an array
-// if statement should be included to say:
-//   ^ IF statement should be a vowel 'aeiou'
-//
+// return value should be a boolean (true or false)
+// write a function that will return true or false when a string is a vowel regardless of it being upper- or lowercased:
+// function isVowel(char) { }
+// include the string 'aeiouAEIOU' to include all of the vowels that are lower and uppercased.
+// .includes() function will return true or false if char matches any of the strings so then write: // return 'aeiouAEIOU'.includes(char)
 
 function isVowel(char) {
-  for(var i = 0; i < char.length; i++) {
-    if(char[i] = 'a' or char[i] = 'e' or char[i] = 'i' or char[i] = 'o' or char[i] = 'u') {
-      return true;
-    }
-    return false;
-  }
+  return 'aeiouAEIOU'.includes(char);
+}

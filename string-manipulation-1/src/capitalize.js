@@ -1,6 +1,6 @@
 /* exported capitalize */
 
-// ww want to return the original word, but with its first character uppercased while the rest of its characters lowercased.
+// we want to return the original word, but with its first character uppercased while the rest of its characters lowercased.
 // define a function named capitalize with parameter: word.
 // name a variable and assign it to make the uppercase the first character of a string.
 // to do that, we need to access the first character of the string by using the uppercase method at word at index 0 (first letter is at index 0)
