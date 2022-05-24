@@ -30,10 +30,10 @@
   -webkit-text-stroke: 1px black;
   text-transform: uppercase;
   position: absolute;
-  top: 180px;
   width: 300px;
 
   /* your code here */
+  top: 154px;
 }
 
 .overlay {
