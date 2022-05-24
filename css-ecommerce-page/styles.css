@@ -5,7 +5,10 @@
 .row-header {
   text-align: center;
   padding: 5px;
-  font-family: sans-serif;
+  font-family:
+    "DM Sans",
+    sans-serif;
+  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
 }
 
 .pics-in-a-row {
@@ -34,6 +37,10 @@ img {
 
 p {
   margin: 0 auto;
+  font-family:
+    "DM Sans",
+    sans-serif;
+  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
 }
 
 .text-title-black {
@@ -52,9 +59,9 @@ p {
   font-weight: lighter;
   color: #e8e8e8;
   font-family:
-    sans-serif,
-    Arial,
-    Helvetica;
+    "DM Sans",
+    sans-serif;
+  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
   font-size: 8px;
 }
 
