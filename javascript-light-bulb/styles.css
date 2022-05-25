@@ -1,0 +1,34 @@
+.button1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  position: relative;
+  border: none;
+  left: 45%;
+  top: 200px;
+}
+
+.button-on {
+  background-color: #faeb85;
+  box-shadow:
+    0 -2em 3em rgb(253 243 200 / 70.8%),
+    0 0 0 2px rgb(253 243 200),
+    0.3em 0.3em 1em #fdf3cc;
+}
+
+.back-light-on {
+  background-color: rgb(254 249 241);
+}
+
+.button-off {
+  background-color: rgb(34 34 36);
+  border: none;
+  box-shadow:
+    0 -3em 3em rgb(12 12 12 / 70.8%),
+    0 0 0 2px rgb(17 17 17),
+    0.3em 0.3em 1em rgb(15 15 15);
+}
+
+.back-light-off {
+  background-color: rgb(17 17 17);
+}
