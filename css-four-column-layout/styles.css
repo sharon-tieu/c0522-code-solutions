@@ -10,6 +10,9 @@
 .row-body-half {
   display: flex;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 img {
@@ -18,9 +21,7 @@ img {
 
 .phone-image {
   display: flex;
-  width: 60%;
-  position: relative;
-  left: 25%;
+  width: 100%;
 }
 
 .vector-image {
@@ -30,14 +31,12 @@ img {
 
 img.vector-image {
   width: 20%;
-  left: 45%;
   padding-top: 10px;
 }
 
 .text-content {
   font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  margin-left: 30px;
 }
 
 p {
@@ -47,4 +46,8 @@ p {
 h2 {
   font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
+}
+
+.col-one-fourth {
+  text-align: center;
 }
