@@ -16,8 +16,8 @@ var switchOn = true;
 
 lightSwitch.addEventListener('click', function boolean(event) {
   if (switchOn === true) {
-    lightSwitch.className = 'button1 buttonOn';
-    background.className = 'backLightOn';
+    lightSwitch.className = 'button1 button-on';
+    background.className = 'back-light-on';
     switchOn = false;
   } else {
     lightSwitch.className = 'button1 button-off';
