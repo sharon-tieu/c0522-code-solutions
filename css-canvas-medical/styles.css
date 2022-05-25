@@ -18,8 +18,7 @@ a {
   color: #a1a1a1;
 }
 
-.header-row {
-  display: flex;
+.justify-spacebetween {
   justify-content: space-between;
 }
 
@@ -197,8 +196,11 @@ img.white-logo {
   margin-left: 70px;
 }
 
-.row-footer {
+.row {
   display: flex;
+}
+
+.background-white {
   background-color: #fafafa;
 }
 
