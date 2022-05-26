@@ -58,10 +58,15 @@ var pokedex = [
 ];
 
 // function must be written to create a DOM that reflects our HTML
-// create a new <div> element using the .createElement() method. This must be assigned to a new variable.
-// the first initial div must have a child div with a class attribute named "column-third". Must use .setAttribute() method for this.
-// create a new <div> element using the .createElement() method. This must be assigned to a new variable.
-// make second div the direct child of the first div.
+// a new <div> element should be created and assigned a variable name to make it more 'tangible'
+// our <div> has a class attribute called "column-third". Use .setAttribute('class', 'column-third') for the div we just created.
+// use appendChild() to make the 'div' and 'class' attribute in relation to one another so then it can me <div class="column-third">
+// repeat steps to create new <div> element and corresponding attribute classes then append them.
+// create a new element for <img> and set it's attributes except it will be called src with the imageUrl.
+//    .setAttribute for src and to access our imageUrl from our array, we should use its property. We will use .imageUrl
+//    <img src = "images/pikachu.png"> will also be divName.setAttribute('src', pokemon.imageUrl);
+// for text content, we will use Node.textContent = pokemon.name to access the name object of our pokedex array.
+// append it to the corresponding parent element.
 
 function renderPokemon(pokemon) {
   var newDiv = document.createElement('div');
@@ -93,6 +98,12 @@ function renderPokemon(pokemon) {
 
   return newDiv;
 }
+
+// We will now how to append what we have written here to the "row" element from our index.html document.
+// first select the "row" element with a querySelector method. Assign a variable to make it more 'tangible' to work with.
+// create a loop in order to go through our pokedex/renderPokemon.
+//    within the loop, we must pass the object (pokedex[i]) to renderPokemon
+// then pass it to "row" element.
 
 var divRow = document.querySelector('.row');
 for (var i = 0; i < pokedex.length; i++) {
