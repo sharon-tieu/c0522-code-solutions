@@ -5,10 +5,11 @@ var $tabContainer = document.querySelector('.tab-container');
 $tabContainer.addEventListener('click', function (event) {
   if (event.target.matches('.tab')) {
     for (var i = 0; i < $tabs.length; i++) {
-      $tabs[i].className = 'tab active';
-      if (event.target === $tabs[i]);
+      if (event.target === $tabs[i]) {
+        $tabs[i].className = 'tab active';
+      } else {
+        $tabs[i].className = 'tab';
+      }
     }
-  } else {
-    $tabs[i].className = 'tab';
   }
 });
