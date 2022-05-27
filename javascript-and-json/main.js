@@ -16,8 +16,8 @@ var $bookShelf = [
   }
 ];
 console.log('array:', $bookShelf);
-console.log('an object of the array:', $bookShelf[2]);
-console.log('typeof the array of books:', typeof $bookShelf[0]);
+console.log('an object of the array:', $bookShelf);
+console.log('typeof the array of books:', typeof $bookShelf);
 
 var $convertToJSON = $bookShelf;
 var $stringify = JSON.stringify($convertToJSON);
