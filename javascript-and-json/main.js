@@ -19,15 +19,16 @@ console.log('array:', $bookShelf);
 console.log('an object of the array:', $bookShelf);
 console.log('typeof the array of books:', typeof $bookShelf);
 
-var $convertToJSON = $bookShelf;
-var $stringify = JSON.stringify($convertToJSON);
+var $stringify = JSON.stringify($bookShelf);
+
 console.log('JSON.stringify():', $stringify);
 console.log('JSON.stringify() typeof:', typeof $stringify);
 
-var $jsonString = JSON.stringify(['id: 29465', 'name: Sharon']);
-console.log('JSON.stringify:', $jsonString);
-console.log('typeof JSON.stringify:', typeof $jsonString);
+// fix from 27 and onward:
+// var $studentJSON = '{"id": 29465, "name": "Sharon"}';
+// console.log('$studentJSON:', $studentJSON);
+// console.log('typeof $studentJSON:', typeof $studentJSON);
 
-var $jsonParse = JSON.parse('"id: 29465"');
-console.log('JSON.parse:', $jsonParse);
-console.log('typeof JSON.parse:', $jsonParse);
+// var $studentParse = JSON.parse($studentJSON);
+// console.log('JSONparse():', $studentParse);
+// console.log('typeOf JSONparse():', typeof $studentParse);
