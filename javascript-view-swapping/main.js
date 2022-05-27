@@ -21,5 +21,11 @@ $tabContainer.addEventListener('click', function (event) {
     }
   }
   var $dataViewValue = event.target.getAttribute('data-view');
-  // begin for loop
+  for (var k = 0; k < $views.length; k++) {
+    if ($dataViewValue === $views[i].getAttribute('data-view')) {
+      $views[k].className = 'view';
+    } else {
+      $views[k].className = 'hidden';
+    }
+  }
 });
