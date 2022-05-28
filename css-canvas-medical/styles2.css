@@ -1,0 +1,119 @@
+.container {
+  margin: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row {
+  display: flex;
+  padding: 20px;
+}
+
+.col-three-fifths {
+  flex-basis: auto;
+  margin-right: 50px;
+}
+
+.col-two-fifths {
+  margin-left: 50px;
+}
+
+a {
+  color: #a1a1a1;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+button.contact-us {
+  background-color: #294363;
+  color: white;
+  border: #294363;
+  height: 35px;
+  width: 100px;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.blue-logo {
+  height: 60px;
+  width: 160px;
+  margin-left: 50px;
+}
+
+.justify-spacebetween {
+  justify-content: space-between;
+}
+
+.divider-line {
+  border-top: 1px solid #eef1f3;
+  position: relative;
+  bottom: 30px;
+}
+
+.image {
+  background-image: url("/css-canvas-medical/images/hero.jpg");
+  background-size: cover;
+  height: 500px;
+  margin: 5px 90px;
+  position: relative;
+}
+
+h2 {
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  width: 40%;
+  font-size: 30px;
+}
+
+p {
+  color: #fff;
+  padding-left: 3rem;
+  width: 45%;
+  font-size: 14px;
+  top: 170px;
+}
+
+.get-started {
+  background-color: #294363;
+  color: white;
+  border: #294363;
+  height: 40px;
+  width: 150px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  bottom: 100px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  right: 0.1px;
+  bottom: 2px;
+  background: rgb(122 113 113 / 40.8%);
+}
+
+.grey-background {
+  background-color: rgb(180 122 163);
+}
+
+.column-full {
+  flex-direction: column;
+}
+
+.column-half {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 40px;
+  color: #7c7c7c;
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+}
