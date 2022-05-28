@@ -5,7 +5,6 @@
 }
 
 .row {
-  display: flex;
   padding: 20px;
 }
 
@@ -102,8 +101,12 @@ p {
   background-color: rgb(180 122 163);
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .column-full {
-  flex-direction: column;
+  text-align: center;
 }
 
 .column-half {
