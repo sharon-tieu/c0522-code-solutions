@@ -19,11 +19,6 @@ h1 {
   letter-spacing: 5px;
 }
 
-.subheading {
-  text-align: center;
-  width: 45%;
-}
-
 .sub-heading {
   font-family: Karla, sans-serif;
   src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYc6trAT7RVLtyU5rZP.woff2");
@@ -40,6 +35,7 @@ h1 {
 
 .column-half {
   width: 35%;
+  display: flex;
 }
 
 .icon {
