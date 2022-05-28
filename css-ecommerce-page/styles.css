@@ -9,6 +9,9 @@
     "DM Sans",
     sans-serif;
   src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
+}
+
+.display {
   display: flex;
   position: relative;
   width: 100%;
