@@ -1,3 +1,9 @@
+// create an Array with 3 objects literals that represent books:
+//   var $bookShelf = [{ isbn: '', title: '', author: ''}, { isbn: '', title:'', author: ''}];
+// log the array of books and console.log the typeof
+//   console.log(typeof books);
+// var stringify = JSON.stringify($bookShelf);
+
 var $bookShelf = [
   {
     isbn: '978-0439023481',
@@ -24,11 +30,21 @@ var $stringify = JSON.stringify($bookShelf);
 console.log('JSON.stringify():', $stringify);
 console.log('JSON.stringify() typeof:', typeof $stringify);
 
-// fix from 27 and onward:
-// var $studentJSON = '{"id": 29465, "name": "Sharon"}';
-// console.log('$studentJSON:', $studentJSON);
-// console.log('typeof $studentJSON:', typeof $studentJSON);
+// create a string in JSON format that holds data to represent a student which includes:
+//   number id and string name
+// string: '{ }'
+// should include: id: 29465m name: sharon
+//    "id": 29465, "name": "sharon"
+// altogether should be...
+//   '{"id": 29465, "name": "Sharon"};
+// then console.log the variable
+var $studentJSON = '{"id": 29465, "name": "Sharon"}';
+console.log('$studentJSON:', $studentJSON);
+console.log('typeof $studentJSON:', typeof $studentJSON);
 
-// var $studentParse = JSON.parse($studentJSON);
-// console.log('JSONparse():', $studentParse);
-// console.log('typeOf JSONparse():', typeof $studentParse);
+// use JSONparse() to create a JavaScript object from our JavaScript String ($studentJSON). Then console.log() it.
+// JSON.parse($studentJSON) will be assigned to var $studentParse
+
+var $studentParse = JSON.parse($studentJSON);
+console.log('studentparse():', $studentParse);
+console.log('typeOf studentparse():', typeof $studentParse);
