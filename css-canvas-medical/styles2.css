@@ -4,10 +4,6 @@
   padding-right: 50px;
 }
 
-.row {
-  padding: 20px;
-}
-
 .col-three-fifths {
   flex-basis: auto;
   margin-right: 50px;
@@ -48,7 +44,8 @@ button.contact-us {
 .divider-line {
   border-top: 1px solid #eef1f3;
   position: relative;
-  bottom: 30px;
+  top: 15px;
+  padding: 20px;
 }
 
 .image {
@@ -61,7 +58,6 @@ button.contact-us {
 
 h2 {
   color: #fff;
-  padding-top: 5rem;
   padding-left: 3rem;
   width: 40%;
   font-size: 30px;
@@ -107,6 +103,11 @@ p {
 
 .column-full {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
 }
 
 .column-half {
@@ -119,4 +120,12 @@ p {
     Avenir,
     sans-serif;
   src: url("avenir.woff2") format("woff2");
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }

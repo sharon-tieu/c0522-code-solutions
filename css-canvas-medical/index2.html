@@ -11,12 +11,12 @@
 </head>
 <body>
   <div class="container">
-    <div class="row justify-spacebetween">
+    <div class="row justify-spacebetween display-flex">
       <div class="col-two-fifths">
         <img src="./images/logo-blue.svg" class="blue-logo" alt="Blue logo">
       </div>
       <div class="col-three-fifths">
-        <div class="row">
+        <div class="nav-bar">
           <a>Product</a>
           <a>Implementation</a>
           <a>About Us</a>
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="row divider-line"></div>
+    <div class="divider-line"></div>
     <div class="row image">
       <div class="col-one-third overlay">
         <h2>The EMR Reimagined for Primary Care</h2>
@@ -38,20 +38,22 @@
         <button class="get-started">Get Started</button>
       </div>
     </div>
-    <div class="row grey-background flex-wrap">
+    <div class="row grey-background">
       <div class="column-full">
         <h2>I am an h2</h2>
         <p>I am a p</p>
       </div>
-      <div class="column-half display-flex">
-        <p>one</p>
-        <p>two</p>
-        <p>three</p>
-      </div>
-      <div class="column-half display-flex">
-        <p>four</p>
-        <p>five</p>
-        <p>six</p>
+      <div class="display-flex">
+        <div class="column-half display-flex flex-column">
+          <p>one</p>
+          <p>two</p>
+          <p>three</p>
+        </div>
+        <div class="column-half display-flex flex-column">
+          <p>four</p>
+          <p>five</p>
+          <p>six</p>
+        </div>
       </div>
     </div>
   </div>
