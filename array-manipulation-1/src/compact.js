@@ -3,7 +3,7 @@ function compact(array) {
   var compactTest = [];
   for (var i = 0; i < array.length; i++) {
     var item = array[i];
-    if (item !== false && item !== null && isNaN(item) !== false && item !== 0 && item !== undefined && item !== '') {
+    if (item) {
       compactTest.push(item);
     }
   }
@@ -18,4 +18,4 @@ function compact(array) {
 //   for(var i = 0; i < array.length; i++);
 // array[i] should be assigned a new variable after the loop iterates.
 // create an if statement so the computer has paramters to determine what to push into the empty [];
-// omit false:  item !== false;
+// omit false:  item !== false
