@@ -13,4 +13,4 @@ function truncate(length, string) {
 // for loop
 // if (i < length) , because you want you stop stop at -1 of the index which is less than length.
 // letters += string[i] adds and assigns- it is the same as letteres = letters + string[i];
-// return letters + '...'
+// return letters + '...' because the instructions say to append '...';

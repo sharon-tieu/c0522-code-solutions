@@ -16,5 +16,3 @@ function capitalizeWord(word) {
 // we want the output to capitalize only at the first character- which is at index 0
 // everything else after index 0 will be lowercased.
 // uppercased character will be added to the rest of the characters.
-
-// ask about the test file for JavaScript
