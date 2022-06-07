@@ -3,10 +3,10 @@
   height: 100%;
   top: 0;
   left: 0;
-  display: none;
   position: fixed;
   background-color: rgb(51 51 51 / 86.3%);
-  z-index: 1 /* modal will be on the top layer so we will use z-index: 1; */
+
+  /* z-index: 1 /* modal will be on the top layer so we will use z-index: 1; */
 }
 
 #survey {
@@ -43,4 +43,12 @@
   border: none;
   border-radius: 3px;
   box-shadow: 0 2px 5px 0 grey;
+}
+
+.invisible {
+  display: none !important;
+}
+
+.visible {
+  display: block;
 }
