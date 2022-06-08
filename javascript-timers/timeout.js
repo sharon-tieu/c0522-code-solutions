@@ -5,5 +5,5 @@ setTimeout(myGreeting, 2000);
 // write a f(x) for myGreeting.
 // select the class="message".
 function myGreeting() {
-  document.querySelector('.message').innerHTML = 'Hello There!';
+  document.querySelector('.message').textContent = 'Hello There!';
 }
