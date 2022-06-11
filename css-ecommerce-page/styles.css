@@ -2,28 +2,23 @@
   padding: 10px;
 }
 
-.row {
-  text-align: center;
-  padding: 5px;
+.font-family {
   font-family:
     "DM Sans",
     sans-serif;
-  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
+}
+
+.row {
+  text-align: center;
+  padding: 5px;
+}
+
+.justify-content {
+  justify-content: center;
 }
 
 .display {
   display: flex;
-  position: relative;
-  width: 100%;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  justify-content: center;
-}
-
-.col-on-fifth {
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 img {
@@ -37,10 +32,6 @@ img {
 
 p {
   margin: 0 auto;
-  font-family:
-    "DM Sans",
-    sans-serif;
-  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
 }
 
 .text-title-black {
@@ -61,7 +52,6 @@ p {
   font-family:
     "DM Sans",
     sans-serif;
-  src: url("https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2") format("woff2");
   font-size: 8px;
 }
 
