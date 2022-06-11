@@ -1,0 +1,52 @@
+.container {
+  padding: 10px 5px;
+}
+
+.row {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.center {
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+}
+
+.phone-image {
+  display: flex;
+  width: 100%;
+}
+
+.vector-image {
+  width: 70;
+  position: relative;
+}
+
+img.vector-image {
+  width: 20%;
+  padding-top: 10px;
+}
+
+.text-content {
+  font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+p {
+  font-size: 10px;
+}
+
+h2 {
+  font-family: sans-serif, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.col-one-fourth {
+  text-align: center;
+}
