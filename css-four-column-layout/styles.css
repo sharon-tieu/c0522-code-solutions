@@ -2,17 +2,16 @@
   padding: 10px 5px;
 }
 
-.row-header {
-  text-align: center;
-  padding: 5px;
-}
-
-.row-body-half {
+.row {
   display: flex;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.center {
+  justify-content: center;
 }
 
 img {
