@@ -1,7 +1,7 @@
 /* exported chunk */
 // count = to number of things inside the sub-array
 // iterate through array
-// each element needs to be given a variable.
+// each element needs to be given a variable. var element = array[i];
 
 function chunk(array, size) {
   var parentArray = [];
