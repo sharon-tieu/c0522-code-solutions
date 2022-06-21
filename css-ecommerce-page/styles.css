@@ -1,0 +1,60 @@
+.container {
+  padding: 10px;
+}
+
+.font-family {
+  font-family:
+    "DM Sans",
+    sans-serif;
+}
+
+.row {
+  text-align: center;
+  padding: 5px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+  object-fit: contain;
+  height: 200px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+p {
+  margin: 0 auto;
+}
+
+.text-title-black {
+  font-weight: bold;
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+.text-title-grey {
+  color: #e8e8e8;
+  font-size: 8px;
+}
+
+.strike-through-text {
+  text-decoration: line-through;
+  font-weight: lighter;
+  color: #e8e8e8;
+  font-family:
+    "DM Sans",
+    sans-serif;
+  font-size: 8px;
+}
+
+.highlight-price {
+  background-color: #fff1e7;
+}
