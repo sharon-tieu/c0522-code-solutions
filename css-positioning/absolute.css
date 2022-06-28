@@ -13,12 +13,11 @@
 }
 
 .emoji {
+  /* your code here */
   font-size: 3rem;
   position: absolute;
-  top: 30px;
+  top: 10px;
   right: 10px;
-
-  /* your code here */
 }
 
 .joke {
