@@ -79,8 +79,6 @@ leftArrow.addEventListener('click', function (event) {
 
 circleImage1.addEventListener('click', function () {
   console.log('circle 1 click detected!');
-  var circleZero = querySelector('#circle-imaage-0');
-  circleZero.classList.add('fa-solid');
 });
 
 circleImage2.addEventListener('click', function () {
