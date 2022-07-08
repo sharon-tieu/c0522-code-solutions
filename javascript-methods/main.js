@@ -55,3 +55,5 @@ console.log('firstAndLastName:', firstAndLastName);
 var firstName = firstAndLastName[0];
 var sayMyName = firstName.toUpperCase();
 console.log('sayMyName:', sayMyName);
+
+//

@@ -59,7 +59,6 @@ rightArrow.addEventListener('click', function (event) {
   }
 });
 
-// Left Click Arrow
 leftArrow.addEventListener('click', function (event) {
   clearInterval(carouselLoop);
   currentImage = currentImage - 1;
@@ -80,6 +79,8 @@ leftArrow.addEventListener('click', function (event) {
 
 circleImage1.addEventListener('click', function () {
   console.log('circle 1 click detected!');
+  var circleZero = querySelector('#circle-imaage-0');
+  circleZero.classList.add('fa-solid');
 });
 
 circleImage2.addEventListener('click', function () {
